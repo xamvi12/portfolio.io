@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vivian's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          <img src="images/woman-8725575.jpg" alt="my pic" class="banner">
+        </header>
+        <h1>Vivian.C.Austin</h1>
+        <h4>Frontend developer, backend developer</h4>
+        <p>
+            I am a Frontend developer based in lagos,Nigeria. I am 18 years of age and a student of federal unversity of technology, Owerri.
+            I'm currently studying information technology in the institution i formerly stated, and i engage in so many projects that show 
+            how fun it is to work in a tech field. This is my portfolio and some the works i have engaged in. I hope you like them!
+        </p>
+        <section>
+            <h2 class="port-title">Portfolio</h2>
+            <div class="portfolio-container">
+                <!--1st card-->
+                <div class="project-card">
+                    <img src="images/ticket-2974645_640.jpg" alt="ticket">
+                    <h3>Ticket Booking System </h3>
+                    <br>
+                    <a href="#" class="btn">Coming Soon!</a>
+                </div>
+                <!--2nd card-->
+                <div class="project-card">
+                    <img src="images/woman-8965353_1280.jpg" alt="art">
+                    <h3>My favourite artworks</h3>
+                    <br>
+                    <a href="#" class="btn">Look Here!</a>
+                </div>
+                <!--3rd card-->
+                <div class="project-card">
+                    <img src="images/coffee-839233_1920.jpg" alt="coffe-pic">
+                    <h3>Restaurant site</h3>
+                    <br>
+                    <a href="#" class="btn">Coming Soon!</a>
+                </div>
+            </div>
+        </section>
+
+        <!--the form part-->
+        <div class="fun-container">
+            <h2 class="fun-text">Lets have a bit of Fun,Lets be poetic!!</h2>
+            <label>Enter the name of a girl:</label>
+            <input type="text" id="girl" placeholder=" e.g Leona">
+            <br><br>
+            <label>Enter the name of a Country:</label>
+            <input type="text" id="country" placeholder="e.g Hong-kong">
+            
+            <h3 id="poemTitle"></h3>
+            <p id="poemtext"></p>
+
+            <div class="fun-button">
+                <button id="resetBtn">Reset</button>
+                <button id="makeBtn" onclick="makePoem()">Make/Remake</button>
+            </div>
+            <p> Powered by:
+                <span class="key-magnet" title="the tags show what technologies i use">Javascript</span>
+                <span class="key-magnet" title="the tags show what technologies i use">Boostrap</span>
+            </p>    
+        </div>
+
+        <hr>
+        <h2 class="fun-text"> Skill Summary</h2>
+        <span class="key" title="the tags show what technologies i use">HTML</span>
+        <span class="key" title="the tags show what technologies i use">CSS</span>
+        <span class="key" title="the tags show what technologies i use">JAVASCRIPT</span>
+        <span class="key" title="the tags show what technologies i use">BOOSTRAP</span>
+        <span class="key" title="the tags show what technologies i use">JAVA</span>
+        
+
+        <ul style="list-style-position: inside;">
+            <li class="quote">Frontend developer</li>
+            <li class="quote">Graphic designer</li>
+            <li class="quote">Data annotator</li>
+        </ul>
+
+        <hr>
+
+        <h2 class="fun-text">Education</h2>
+        <p><b>Federal University Of Technology, Owerri</b></p>
+        <p>Bachelor Of Science </p>
+        <br>
+        <a href="https://futo.edu.ng/" target="_blank" class="view" title="tap here to visit my university official site">Visit Futo official site</a>
+
+        <hr>
+
+        <img src="images/lines-1867838_1280.jpg" alt="img" class="lil-banner">
+        <script src="script.js"></script>
+    </body>
+</html>
